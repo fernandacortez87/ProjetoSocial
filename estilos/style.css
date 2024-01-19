@@ -25,8 +25,20 @@ main {
 }
 
 section#telefone {
- 
+  position: relative;
   height: 627px;
   width: 311px;
   background: url('../imagens/frame-iphone.png') no-repeat;
+}
+
+iframe#tela {
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 269px;
+  height: 471px;
 }
